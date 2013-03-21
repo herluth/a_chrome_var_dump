@@ -1,0 +1,12 @@
+.array{
+	font-weight: bold;
+	color: black;
+}
+.indent{
+	display:block;
+	margin-left: 15px;
+	margin-top: -25px;
+}
+.string{
+	color: red;
+}
