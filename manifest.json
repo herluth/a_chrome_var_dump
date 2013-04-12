@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
 
-  "name": "One-click Kittens",
-  "description": "This extension demonstrates a browser action with kittens.",
+  "name": "Var_Dump Syntax Highlighter",
+  "description": "This extension adds syntax highlighting to var_dumps",
   "version": "1.0",
 
   "permissions": [
-    "https://secure.flickr.com/"
+    ""
   ],
   
   "browser_action": {
@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.rewdev.com/*"],
+      "matches": ["*://*.*.*/*"],
       "css": ["mystyle.css"],
       "js": ["myscript.js"],
       "run_at" : "document_idle"
